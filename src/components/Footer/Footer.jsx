@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const FooterContainer = styled.footer`
-  background: linear-gradient(to right, #1e1e2f, #2c2c3e);
+  background: linear-gradient(to right, #00b4db, #00d08e); /* biru ke hijau */
   color: #f1f1f1;
   padding: 2rem;
   text-align: center;
@@ -27,8 +27,8 @@ const FooterAuthor = styled.p`
 function Footer() {
   return (
     <FooterContainer>
-      <FooterTitle>🎬 Movie App</FooterTitle>
-      <FooterAuthor>Created by Lutfi Fuat Azhar</FooterAuthor>
+      <FooterTitle> Movie App</FooterTitle>
+      <FooterAuthor>Created by Deden Rafi Akbar</FooterAuthor>
     </FooterContainer>
   );
 }

@@ -2,9 +2,8 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   padding: 3rem 2rem;
-  background: linear-gradient(135deg, #e0f2fe, #e9d5ff, #d9f99d); 
-  /* biru muda → lavender → hijau mint */
-  color: #1e293b;
+  background: linear-gradient(135deg, #00b4db, #00d08e); /* gradasi biru ke hijau */
+  color: #f1f5f9; /* text-light */
   border-radius: 1.5rem;
   box-shadow: 0 12px 28px rgba(0, 0, 0, 0.06);
 `;
@@ -31,25 +30,25 @@ export const HeroTitle = styled.h2`
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 0.75rem;
-  color: #1e40af; /* biru navy untuk judul */
+  color: #ffffff; /* putih agar kontras dengan bg gradasi */
 `;
 
 export const HeroGenre = styled.h3`
   font-size: 1.2rem;
   font-weight: 600;
-  color: #475569;
+  color: #d1fae5; /* hijau mint terang */
   margin-bottom: 1rem;
 `;
 
 export const HeroDescription = styled.p`
   font-size: 1rem;
-  color: #334155;
+  color: #e0f2fe; /* biru muda terang */
   line-height: 1.75;
   margin-bottom: 1.5rem;
 `;
 
 export const HeroButton = styled.button`
-  background: linear-gradient(to right, #3b82f6, #60a5fa);
+  background: linear-gradient(to right, #3b82f6, #00d08e); /* biru ke hijau */
   color: white;
   padding: 0.75rem 1.5rem;
   font-weight: 600;
@@ -60,9 +59,9 @@ export const HeroButton = styled.button`
   transition: all 0.3s ease;
 
   &:hover {
-    background: linear-gradient(to right, #2563eb, #3b82f6);
+    background: linear-gradient(to right, #2563eb, #00b894); /* lebih gelap saat hover */
     transform: translateY(-2px);
-    box-shadow: 0 6px 18px rgba(59, 130, 246, 0.25);
+    box-shadow: 0 6px 18px rgba(0, 208, 142, 0.3);
   }
 `;
 
